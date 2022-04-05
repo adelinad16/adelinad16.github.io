@@ -1,3 +1,9 @@
+<script> document.cookie = "session=test GDPR"; 
+document.cookie = "favorite_task=collect Data"; 
+function alertCookie() { alert(document.cookie); } 
+</script>
+<body> Bine ai venit la lab <button onclick="alertCookie()">Show cookies</button> </body>
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/adelinad16/adelinad16.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
@@ -26,11 +32,6 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 
-<script> document.cookie = "session=test GDPR"; 
-document.cookie = "favorite_task=collect Data"; 
-function alertCookie() { alert(document.cookie); } 
-</script>
-<body> Bine ai venit la lab <button onclick="alertCookie()">Show cookies</button> </body>
 
 For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
