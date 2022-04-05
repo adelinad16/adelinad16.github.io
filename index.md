@@ -3,9 +3,9 @@ document.cookie = "session=test GDPR";
 document.cookie = "favorite_task=collect Data";  
 function alertCookie() { alert(document.cookie); } 
 <body> Bine ai venit la lab <button onclick="alertCookie()">Show cookies</button> </body>
-</script>
 
-<script>
+
+
 document.cookie = "name=oeschger; SameSite=None; Secure";
 document.cookie = "favorite_food=tripe; SameSite=None; Secure";
 
