@@ -1,8 +1,7 @@
 <script> document.cookie = "session=test GDPR";  document.cookie = "favorite_task=collect Data";  function alertCookie() { alert(document.cookie); } 
-</script>
 <body> Bine ai venit la lab <button onclick="alertCookie()">Show cookies</button> </body>
 
-<script>
+
 document.cookie = "name=oeschger; SameSite=None; Secure";
 document.cookie = "favorite_food=tripe; SameSite=None; Secure";
 
@@ -16,7 +15,8 @@ function clearOutputCookies() {
   output.textContent = ''
 }
 
-<button onclick="showCookies()">Show cookies</button>
+</script>
+  <button onclick="showCookies()">Show cookies</button>
 
 <button onclick="clearOutputCookies()">
   Clear
