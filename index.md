@@ -3,8 +3,9 @@ document.cookie = "session=test GDPR";
 document.cookie = "favorite_task=collect Data";  
 function alertCookie() { alert(document.cookie); } 
 <body> Bine ai venit la lab <button onclick="alertCookie()">Show cookies</button> </body>
+</script>
 
-
+<script>
 document.cookie = "name=oeschger; SameSite=None; Secure";
 document.cookie = "favorite_food=tripe; SameSite=None; Secure";
 
@@ -31,7 +32,7 @@ function clearOutputCookies() {
   
 </script>
 
-
+<script>
 document.cookie = "test1=Hello; SameSite=None; Secure";
 document.cookie = "test2=World; SameSite=None; Secure";
 
@@ -59,8 +60,10 @@ function clearOutputCookieValue() {
 <div>
   <code id="cookie-value"></code>
 </div>
+</script>
 
 
+<script>
 function doOnce() {
   if (!document.cookie.split('; ').find(row => row.startsWith('doSomethingOnlyOnce'))) {
     // Note that we are setting `SameSite=None;` in this example because the example
@@ -89,7 +92,9 @@ function clearOutputDoOnce() {
 <div>
   <code id="do-once"></code>
 </div>
+</script>
 
+<script>
 
 function resetOnce() {
   // Note that we are setting `SameSite=None;` in this example because the example
@@ -117,7 +122,9 @@ function clearOutputResetOnce() {
 <div>
   <code id="reset-once"></code>
 </div>
+</script>
 
+</script>
 
 // Note that we are setting `SameSite=None;` in this example because the example
 // needs to work cross-origin.
@@ -149,7 +156,9 @@ function clearOutputACookieExists() {
 <div>
   <code id="a-cookie-existence"></code>
 </div>
+</script>
 
+<script>
 
 function checkCookieHasASpecificValue() {
   if (document.cookie.split(';').some((item) => item.includes('reader=1'))) {
