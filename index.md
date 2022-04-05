@@ -2,6 +2,7 @@
 </script>
 <body> Bine ai venit la lab <button onclick="alertCookie()">Show cookies</button> </body>
 
+<script>
 document.cookie = "name=oeschger; SameSite=None; Secure";
 document.cookie = "favorite_food=tripe; SameSite=None; Secure";
 
@@ -169,6 +170,8 @@ function clearASpecificValueOfTheCookie() {
 <div>
   <code id="a-specific-value-of-the-cookie"></code>
 </div>
+  
+</script>
 
 
 
