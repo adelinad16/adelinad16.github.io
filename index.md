@@ -1,5 +1,5 @@
 <script>document.cookie = "session=test GDPR"; document.cookie = "favorite_task=collect Data"; function alertCookie() { alert(document.cookie); } </script>
-<body><br> Bine ai venit la lab <button onclick="alertCookie()">Show cookies</button> </br></body>
+<body><br> Bine ai venit la lab <button onclick="alertCookie()">Show cookies</button></br></body>
 
 ## Welcome to GitHub Pages
 
