@@ -1,4 +1,6 @@
-<script>document.cookie = "session=test GDPR";
+<body> Bine ai venit la lab <br><button onclick="alertCookie()">Show cookies</button>
+<script>
+document.cookie = "session=test GDPR";
 document.cookie = "favorite_task=collect Data"; 
 document.cookie = "name=oeschger; SameSite=None; Secure";
 document.cookie = "favorite_food=tripe; SameSite=None; Secure";
@@ -17,9 +19,7 @@ function clearOutputCookies() {
  
 
 </script>
-
-<body> Bine ai venit la lab <br><button onclick="alertCookie()">Show cookies</button></body><br>
-
+  
 <br>Example 1
 <button onclick="showCookies()">Show cookies</button>
 
@@ -31,6 +31,8 @@ function clearOutputCookies() {
   <code id="cookies"></code>
 </div>
 
+
+</body>
 
 ## Welcome to GitHub Pages
 
